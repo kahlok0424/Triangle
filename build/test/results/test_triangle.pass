@@ -1,0 +1,37 @@
+---
+:source:
+  :path: test
+  :file: test_triangle.c
+:successes:
+- :test: test_valid_Triangle
+  :line: 12
+  :message: ''
+- :test: test_not_valid_Triangle
+  :line: 17
+  :message: ''
+- :test: test_triangle_type_acute
+  :line: 22
+  :message: ''
+- :test: test_triangle_type_obtuse
+  :line: 27
+  :message: ''
+- :test: test_triangle_type_rigntAngle
+  :line: 32
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 5
+  :failed: 0
+  :ignored: 0
+:stdout:
+- 'a: 1'
+- 'b: 1'
+- 'c: 1'
+- 'a: 10'
+- 'b: 10'
+- 'c: 15'
+- 'a: 3'
+- 'b: 4'
+- 'c: 5'
